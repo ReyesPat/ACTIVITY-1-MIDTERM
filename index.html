@@ -1,232 +1,692 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>BEACH.</title>
-    <link rel="icon" type="image/x-icon" href="img/Logo.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get Pierced</title>
+    <link rel="icon" type="assets/images/logo.png" href="assets/images/GETPIERCED.png">
+    <!-- Boostrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<style>
-    body {
-      background-image: url(img/pexels-john-patrick-quevada-10562435.jpg);
-      background-size:cover;
-      }
-</style>
 
-<body>
-    <section class="header">
-    <div class="container" style="padding-top: 20px;">
-    <nav class="navbar navbar-expand-lg navbar-light rounded-pill shadow-lg text-black-500 fw-bold position-fixed" style="background-color: white;" > 
-        <div class="container-fluid">
-          <h7>Beach.</h7>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    </section>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
-              <div class="col-lg-15 p-3 p-lg-5 pt-lg-3 text-light">
-                <h1 class="fw-bold"> <br> <br> &nbsp; &nbsp; &nbsp; &nbsp; All you need is a good dose of vitamin sea.</h1>
-                  <div class="text lead text-light">
-                  <h9> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The best is what we recommend.</h9>
-                  </div>
-              </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="pierced" style="width: 100px; height: 30px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
 
-<!--CAROUSEL-->
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner ">
-    
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/pexels-asad-photo-maldives-15031960.jpg" class="d-block w-100" alt="Maldives">
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/pexels-asad-photo-maldives-14923412.jpg" class="d-block w-100" alt="Kayak">
-    </div>
-    <div class="carousel-item active" data-bs-interval="2000">
-      <img src="img/pexels-asad-photo-maldives-12858466.jpg" class="d-block w-100" alt="Hat">
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/pexels-asad-photo-maldives-3426874.jpg" class="d-block w-100" alt="Maldives">
-    </div>
-    <div class="carousel-item">
-      <img src="img/pexels-pixabay-417083.jpg" class="d-block w-100" alt="Beach">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!--CAROUSEL-->              
-              
-              <div class="container">
-                <div class="row">
-                <div class="col"></div>
-                <div class="text-light align-items-md-center col-10">
-                <h4><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
-                </svg> Five best beaches to explore &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-water" viewBox="0 0 16 16">
-                    <path d="M.036 3.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 3.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 6.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 9.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65z"/>
-                  </svg> Clear water</h4> 
-                </div>  
-                <div class="col"></div>
-                </div>
-              </div>
-  
-              
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heroSlider">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">After Care</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Piercer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Reservation</a>
+                    </li>
+
+                </ul>
+                <a href="#" class="btn btn-brand"> sign out</a>
             </div>
-          </div>
-    </section>
-
-<!--Second-->
-
-    <section class="hero">
-    <section>
-      <br>
-      <div class="container">
-      <div class="row p-4 pb-0 pe-lg-5 pt-lg-5  border-2 shadow-lg float-top background-gradient" style="background-color: rgba(0, 0, 0, 0.544); background-size: 100% ; height: 2700px;">
-        <div class="text-light align-items-md-center col-10" > 
-          <h8>
-          The Philippines and breathtaking views go together just like a spade and a bucket. Well over 7000 islands make up the nation, and almost all of them have at least one stunning stretch of golden sand with recognizable bangka boats bobbing in shallow turquoise waters offshore. Here are 5 of the best attractions in the Philippines, whether you're searching for a hidden gem on a remote island, a cove with good surf, or a vibrant area where you can sip a cocktail while basking in the sun.
-          </h8>
-          <br>
-          <br>
-          <hr>
-          <h1>
-            1. WHITE BEACH
-          </h1>
-          <h8>
-            With its glorious, powdered-sugar sand, White Beach is the center of the action in Boracay and the only sight most visitors ever see. Beach locations are defined relative to three former boat stations, where bangkas (small, canoe-like boats) from nearby Caticlan used to arrive. The area south of Station 3, known as Angol, contains most of the budget accommodation, including a few remnants of Old Boracay.
-          </h8>
-          <img src="img/bora.jpg" alt="Bora" width="500" height="350">
-          <br>
-          <hr>
-          <h1>
-            2. LONG BEACH
-          </h1>
-          <h8>
-            San Vicente's signature attraction, Long Beach, is a real beauty. It actually consists of three beaches – Long Beach 1, 2 and 3 – which combined yield about 14km of almost empty golden-hued beach on the west coast of Palawan. Among them, Long Beach 2 is perhaps the pick of the litter; it's 50m wide, offers pink-hued sunsets and stretches uninterrupted for 7km.
-          </h8>
-          <img src="img/long beach.webp" alt="Bora" width="500" height="350">
-          <br>
-          <hr>
-          <h1>
-            3. NACPAN BEACH
-          </h1>
-          <h8>
-            For an easy day trip out of El Nido, on the island of Palawan, head north by tricycle or motorbike to this incredible, white sand beach. Development has arrived in Nacpan and new guesthouses, boutique hotels and upscale tented camps are popping up everywhere. 
-          </h8>
-          <img src="img/Nacpan.jpg" alt="Bora" width="500" height="350">
-          <br>
-          <hr>
-          <h1>
-            4. SANDIRA BEACH (PARADISE BEACH)
-          </h1>
-          <h8>
-            Around 5km east of Santa Fe, on Bantayan Island, this sublime beach has white sand, shade umbrellas and excellent swimming, and the surrounding area is attractively landscaped and trash-free. It's very popular with locals on weekends and holidays.
-          </h8>
-          <img src="img/paradise.jpg" alt="Bora" width="500" height="350">
-          <br>
-          <hr>
-          <h1>
-            5. SAUD BEACH
-          </h1>
-          <h8>
-            This dazzling long arc of white sand shimmers into a perfect swimming pool of blue sea. Located on the northern tip of the island of Luzon (the largest island in the Philippines), the beach is home to a big selection of accommodation, but it's still a pretty mellow place (outside of holiday weekends). Coconut palms fringe the beach and waves peel off the reef when there's swell.
-          </h8>
-          <img src="img/negros.jpg" alt="Bora" width="500" height="350">
         </div>
-      </div>    
+    </nav>
+
+    <!-- Hero Slider -->
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME BACK TO GET PIERCED</h6>
+                            <h5 class="display-1 my-3 fw-bold text-white">pain is beautiful</h5>
+                            <a href="#" class="btn btn-brand">GET SCHEDULED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item text-center bg-cover vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME BACK TO GET PIERCED</h6>
+                            <h5 class="display-1 my-3 fw-bold text-white">pain is beautiful</h5>
+                            <a href="#" class="btn btn-brand">GET SCHEDULED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row gy-1 align-items-center">
+                <div class="col-lg-3">
+                    <img src="/Get pierced/assets/images/pictureaboutus.jpg" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <h1>About us</h1>
+                    <div class="divider my-4"></div>
+                    <p>Get Pierced is a community where we can express ourselves, and since 2017, we've been helping individuals locate good, secure piercings.</p>
+                    <p>In keeping with our commitment to embracing our culture, the Get Pierced community wants to offer piercings that may be used to reflect your style and thoughts.</p>
+                    <a href="#" class="btn btn-brand">know more</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-<!--Second ends here-->
-    <section class="footer">
-        <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container">
+    <!-- Menu -->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>SERVICE</h1>
+                    <p>REPEAT AFTER ME,"NO TO PIERCING GUN."</p>
+                </div>
+            </div>
+        </div>
 
-  
-</div>
+        <div class="container">
+            <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
 
-<!-- End of .container -->
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Sorts</button>
+                </li>
 
-<!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container my-5">
-  <br>
-  <footer class="text-center text-white" style="background-color: #f8f8f800;">
-  <!-- Grid container -->
-  <div class="container pt-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-light m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-        </svg>
-      </a>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="true">Ear Piercing</button>
+                </li>
 
-      <!-- Twitter -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-light m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-        </svg>
-      </a>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Face Piercing</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                        type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">More</button>
+                </li>
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+<!--ALLSORTS-->
+                    <div class="row gy-1">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="assets/images/picturelobe.jpg" alt="LOBE">
+                                <div class="menu-item-content p-4">
+                                    
+                                    <h5>Lobe Piercing</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="assets/images/picturehelix.jpg" alt="HELIX">
+                                <div class="menu-item-content p-4">
+                                    
+                                    <h5>Helix</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="assets/images/pictureconch.jpg" alt="CONCH">
+                                        <div class="menu-item-content p-4">
+                     
+                                            <h5>Conch</h5>
+                                            <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="assets/images/picturerook.jpg" alt="ROOK">
+                                <div class="menu-item-content p-4">
+                                    
+                                    <h5>Rook</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="assets/images/picturetragus.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    
+                                    <h5>Tragus</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="assets/images/picturedaith.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        
+                                    </div>
+                                    <h5>Daith</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/pictureflat.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Flat</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/pictureantitragus.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Anti Tragus</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturesnakebite.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Snake Bite</h5>
+                                    <h4 class="small">$100</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturespiderbites.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Spider Bites</h5>
+                                    <h4 class="small">$80</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturedahlia.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Dahlia</h5>
+                                    <h4 class="small">$80</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturecyberbites.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Cyber Bites</h5>
+                                    <h4 class="small">$100</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/pictureseptumm.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Septum</h5>
+                                    <h4 class="small">$80</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturenosestud.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Nose Stud</h5>
+                                    <h4 class="small">$80</h4>
+                                </div>
+                            </div>
+                        </div>
 
 
-      <!-- Instagram -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-light m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-      ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-      </svg>
-      </a>
+                    </div>
+
+                </div>
+<!--ALLSORTSEND-->
+<!--EAR-->
+                <div class="tab-pane fade show" id="pills-breakfast" role="tabpanel"
+                    aria-labelledby="pills-breakfast-tab" tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturelobe.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        
+                                    </div>
+                                    <h5>Lobe</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturehelix.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        
+                                    </div>
+                                    <h5>Helix</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="assets/images/pictureconch.jpg" alt="CONCH">
+                                        <div class="menu-item-content p-4">
+                     
+                                            <h5>Conch</h5>
+                                            <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturerook.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                       
+                                    </div>
+                                    <h5>Rook</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturetragus.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                     
+                                    </div>
+                                    <h5>Tragus</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturedaith.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                     
+                                    </div>
+                                    <h5>Daith</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/pictureflat.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Flat</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/pictureantitragus.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <h5>Anti Tragus</h5>
+                                    <h4 class="small">$50</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+<!--EAR ENDS-->
+<!--FACE-->
+                <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturesnakebite.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                       
+                                    </div>
+                                    <h5>Snake Bite</h5>
+                                    <h4 class="small">$100</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturespiderbites.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                  
+                                    </div>
+                                    <h5>Spider Bites</h5>
+                                    <h4 class="small">$80</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturedahlia.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                              
+                                        </span>
+                                    </div>
+                                    <h5>Dahlia</h5>
+                                    <h4 class="small">$80</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/picturecyberbites.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                   
+                                    </div>
+                                    <h5>Cyber Bites</h5>
+                                    <h4 class="small">$100</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--FACE ENDS-->
+                <div class="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"
+                    tabindex="0">
+
+                    <img src="assets/images/MORE.png" alt="">
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 
-    
     </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center text-light p-3 fw-bold" style="background-color: rgba(192, 183, 166, 0.126) ;">
-    © 2020 Copyright: BEACH.
-  </div>
-  <!-- Copyright -->
-</footer>
-</div>
-<!-- End of .container -->
-            
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+<!---->    
+    <!-- Features -->
+    <section id="features" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">AFTERCARE</h1>
+                    <p class="text-white">Depending on your aftercare, the healing process may vary.</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <img src="assets/images/picturewash.png"style="height: 35px; width:35px;  display: block;
+                            margin-left: auto;
+                            margin-right: auto;">
+
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">WASH</h4>
+                        <p class="text-white">Wash your hands before and after touching your piercings
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <img src="assets/images/picturespray2.png" style="height: 35px; width:35px;  display: block;
+                            margin-left: auto;
+                            margin-right: auto;">
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">SPRAY</h4>
+                        <p class="text-white">Clean your piercing with sterile saline solution 3-5 times per day
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <img src="assets/images/picturesoap.png" style="height: 35px; width:35px;  display: block;
+                            margin-left: auto;
+                            margin-right: auto;">
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">MILD SOAP</h4>
+                        <p class="text-white">Use mild soap to clean your and rinse it thouroughly
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <img src="assets/images/picturetissue.png" style="height: 35px; width:35px;  display: block;
+                            margin-left: auto;
+                            margin-right: auto;">
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">DRY</h4>
+                        <p class="text-white">Gently pat your piercing with a clean disposable paper towel
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Body Modification Artists</h1>
+                    <p>Artists from GET PIERCED is are well trained.</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                        <img src="./assets/images/maddy.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">Maddy</h4>
+                            <p class="mb-0">BODY PIERCER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                        <img src="./assets/images/briankeith.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">Brian Thompson</h4>
+                            <p class="mb-0">TATTOO ARTIST & BODY PIERCER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                        <img src="./assets/images/tjpierce.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">TJ Pierce</h4>
+                            <p class="mb-0">BODY PIERCER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                        <img src="./assets/images/cassie.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">Cassie</h4>
+                            <p class="mb-0">BODY PIERCER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Reservation -->
+    <section id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Book an appoitment</h1>
+                    <p>we prioritize reserved customer</p>
+                </div>
+            </div>
+            <form action="#" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Time">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                            <a href="#" class="btn btn-brand">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-cover">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-4">
+                        <img src="./assets/images/logo.png" class="mb-4" alt="">
+                        <div class="social-links">
+                            <p>FOLLOW US HERE ON SOCIAL MEDIA</p>
+                            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                            <a href="#"><i class="ri-instagram-fill"></i></a>
+                            <a href="#"><i class="ri-youtube-fill"></i></a>
+                            <a href="#"><i class="ri-google-play-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ms-auto">
+                        <h6 class="text-white mb-4">CONTACT US</h6>
+                        <p class="mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                              </svg> &nbsp; (09) 070 20200</p>
+                        <p class="mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                            <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                            <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                          </svg> &nbsp; enquiries@mill.co</p>
+                        <p class="mb-0"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
+                          </svg> &nbsp; 1313 Shop Located  </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 class="text-white mb-4">OPENING HOURS</h6>
+                        <p class="mb-1">Monday-Friday : 08:00 a.m. - 10:00 p.m.</p>
+                        <p>We prioritize reserved customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row gy-3 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Copyrights all rights reserved G.P.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
